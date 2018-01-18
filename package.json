@@ -1,0 +1,26 @@
+{
+  "name": "node_base",
+  "version": "1.0.0",
+  "description": "NodeJS base project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon .",
+    "start-prod": "node .",
+    "test": "NODE_ENV=test mocha 'tests/**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "mocha": "^4.1.0",
+    "nodemon": "^1.14.11",
+    "sinon": "^4.1.6",
+    "sinon-chai": "^2.14.0"
+  }
+}
