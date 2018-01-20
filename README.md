@@ -9,9 +9,10 @@ The base stack is the following:
 
 ## TODO
 
-- [ ] Setup PostgreSQL.
-- [ ] Wire up sequelize and create a report model.
-- [ ] Add model validation to requests.
+- [X] Setup PostgreSQL.
+- [X] Wire up sequelize and create a report model.
+- [X] Add model validation to requests.
+- [ ] Add good error handling to requests.
 - [ ] Create tests for the report model.
 - [ ] Create tests for the report controller.
 - [ ] Document Project structure.
